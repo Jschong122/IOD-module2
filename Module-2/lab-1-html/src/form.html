@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <!-- works like <a href="/index.html">Home</a> -->
+      <a href="/Module-2/lab-1-html/src/index.html">Home</a>
+      <a href="/Module-2/lab-1-html/src/form.html">Form</a>
+    </nav>
+  </header>
+  <div>
+    <main>
+      <form method="POST" action="http://127.0.0.1:5500/form.html">
+        <label for="fname">First name</label>
+        <input type="text" name="first name" id="first-name">
+        <label for="lname">Last name</label>
+        <input type="text" name="last name" id="first-name">
+        <div>
+          <h3>Favourite coding language</h6>
+            <label for="html">HTML</label>
+            <input type="radio" name="btn" id="html" value="html">
+            <label for="CSS">CSS</label>
+            <input type="radio" name="btn" id="CSS" value="CSS">
+            <label for="javascript">javascript</label>
+            <input type="radio" name="btn" id="javascript" value="CSS">
+        </div>
+        <div>
+          <h3>Types of vehicle</h3>
+          <label for="sedan">Sedan</label>
+          <input type="checkbox" name="Sedan" id=" sedan" value="sedan">
+          <label for="toyota">Hatchback</label>
+          <input type="checkbox" name="Hatchback" id="hatchback" value="hatchback">
+          <label for="audi">SUV</label>
+          <input type="checkbox" name="SUV" id="SUV" value="SUV">
+          <br>
+          <label for="cars">Choose a car:</label>
+          <select name="cars" id="">cars
+            <option value="Toyota">Toyota</option>
+            <option value="Audi">Audi</option>
+            <option value="Tesla">Tesla</option>
+          </select> <br>
+          <button type="submit">Submit form</button>
+        </div>
+      </form>
+  </div>
+
+
+  <footer>Copyright &copy; 2024</footer>
+</body>
+
+</html>

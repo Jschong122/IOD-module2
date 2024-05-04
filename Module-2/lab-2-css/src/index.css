@@ -1,0 +1,123 @@
+/* I. Selectors */
+/* Put styles for questions 1.1, 1.2, 1.3 and 1.4 here */
+
+.style-me1 {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid black;
+  color: red;
+}
+
+#style-me2 {
+  color: blue;
+}
+.style-me1#style-me2 {
+  color: purple;
+}
+
+/* Put styles for questions 2.1 and 2.2 here */
+.my-children-are-styled {
+  background-color: lightgreen;
+}
+
+.my-descendants-are-styled {
+  background-color: red;
+}
+
+/* II. Box model and common properties */
+
+/* Put styles for questions 1-8 here */
+.box {
+  background-color: orange;
+  margin: 10px;
+  padding: 10px;
+  height: 10rem;
+  border: 10px;
+  border-color: red;
+  border-style: dotted solid;
+  overflow: visible;
+  outline: 20px soild green;
+  border-radius: 50%;
+  background-image: url("/Module-2/lab-2-css/assets/images/img1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* III. Positioning */
+/* Put styles for questions 1-3 here */
+
+.position-absolute {
+  position: absolute;
+  bottom: 0;
+  background-color: rgb(213, 131, 131);
+  position: right;
+}
+
+.position-relative {
+  position: relative;
+  background-color: greenyellow;
+  height: 100px;
+  width: 250px;
+}
+
+.position-sticky {
+position: sticky;
+background-color: antiquewhite;
+top: 10%;
+}
+
+/* IV. Styling text */
+/* Put styles for questions 1-10 here */
+.text-style{
+    color: brown;
+    font-size: 20px;
+    font-weight: 700 ;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 700;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    text-transform: capitalize;
+    
+}
+
+/* V. Styling links */
+/* Put styles for questions 1-3 here */
+a{
+    color: red;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+}
+a:active{
+    color: darkred;
+    text-decoration: underline;
+}
+a:visited{
+    color: rgb(89, 80, 216);
+    
+}
+
+a:hover{
+    font-style: italic; 
+}
+
+/* VI. calc() */
+/* Put styles for questions 1-3 here */
+.calc-style{
+    width: 100vw;
+    background-color: rgb(176, 109, 239);
+    width: calc(100vw - 100px); 
+}
+
+.fixed-width-col{
+    width: 350px;
+    display: inline-block;}
+
+.fluid-col{
+    display: inline-block;
+    width: calc(100vw - 850vw);
+    padding-bottom: 20px;
+
+}

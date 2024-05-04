@@ -1,0 +1,90 @@
+.dm-serif-display-regular {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif-display-regular-italic {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+* {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+}
+
+.card {
+  background-color: rgb(228, 209, 245);
+  border-radius: 20px;
+  border: 30px;
+  width: 60vw;
+  min-width: 700px;
+  min-height: 500px;
+  height: 80vh;
+  margin: auto;
+  margin-top: 40px;
+
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.side {
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+}
+
+#info {
+  margin: auto;
+}
+.pic {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  justify-content: center;
+}
+
+.tittle-2 {
+  background-color: rgb(192, 164, 218);
+  border-radius: 0px 10px 10px 0px;
+  padding: 10px;
+  margin-left: -38px;
+}
+.main {
+  min-width: 300px;
+  margin: auto;
+  padding: 10px;
+  background-color: bisque;
+  text-align: left;
+  width: 25vw;
+  border-radius: 20px;
+  position: relative;
+}
+
+.main p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.main-tittle {
+  text-align: center;
+  background-color: rgb(230, 201, 167);
+  margin-left: -10px;
+  margin-right: -10px;
+  font-size: large;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+
+ul li {
+  list-style-type: none;
+  padding-bottom: 5px;
+}
